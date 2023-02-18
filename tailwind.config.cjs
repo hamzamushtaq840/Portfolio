@@ -12,11 +12,11 @@ module.exports = {
     },
     screens: {
       'sm': { 'min': '1px', 'max': '540px' },
-      'tm': { 'min': '540px', 'max': '844px' },
+      'tm': { 'min': '540px', 'max': '860px' },
       // => @media (min-width: 640px and max-width: 767px) { ... }
-      'md': { 'min': '844px', 'max': '950px' },
+      'md': { 'min': '860px', 'max': '950px' },
       // => @media (min-width: 768px and max-width: 1023px) { ... }
-      'lg': { 'min': '951px', 'max': '1279px' },
+      'lg': { 'min': '950px', 'max': '1093px' },
       // => @media (min-width: 1024px and max-width: 1279px) { ... }
     },
   },
