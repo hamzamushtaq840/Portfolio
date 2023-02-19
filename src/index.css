@@ -123,3 +123,23 @@ a:hover:after {
     transform: translate(0);
   }
 } */
+.carousel__inner-slide {
+  margin-right: 20px;
+}
+
+.slick-slide div {
+  margin: 0 10px 0px 5px;
+  box-sizing: border-box;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(231, 147, 45) !important;
+  /* background-color: azure; */
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

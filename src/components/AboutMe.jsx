@@ -36,13 +36,13 @@ function AboutMe() {
             </Fade>
 
             <div className='flex justify-end pr-10 sm:justify-between sm:pr-0 sm:flex-col'>
-                <Bounce bottom>
+                <Fade bottom>
                     <Tilt className="box" options={options} >
                         <div className='h-full mr-5 pt-6 justify-end  flex items-center sm:mr-0 sm:justify-center'>
                             <img src={hamza} className="h-[80%] min-h-[250px] min-w-[250px] rounded-lg lg:mt-[30%] md:mt-[40%] tm:h-[360px] tm:mt-10 sm:h-[300px] sm:mt-5" />
                         </div>
                     </Tilt>
-                </Bounce>
+                </Fade>
 
                 <div className='flex items-center gap-4 flex-col mt-[0] justify-center pt-[25%] sm:flex-row sm:pt-5'>
                     <a href=""><img src={fb} className="cursor-pointer h-[30px] min-h-[30px] min-w-[30px]" /></a>

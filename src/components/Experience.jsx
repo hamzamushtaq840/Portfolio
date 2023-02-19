@@ -6,7 +6,7 @@ import Bounce from 'react-reveal/Bounce';
 
 function Experience() {
     return (
-        <div id="experience" className='p-[4rem] py-[3rem] sm:px-[1.25rem] sm:py-[-10px] '>
+        <div id="experience" className='p-[4rem] mt-10 sm:mt-0 py-[3rem] sm:px-[1.25rem] sm:py-[-10px] '>
             <Slide left>
                 <div >
                     <h1 className='w-[25rem] mb-[4rem] tracking-wider font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem] sm:mb-4 sm:w-[100%]'>Experience</h1>

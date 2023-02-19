@@ -7,7 +7,9 @@ import Services from './components/Services';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Testmonial from './components/Testmonial';
-
+import Contact from './components/Contact';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       <Services />
       <Experience />
       <Projects />
-      {/* <Testmonial /> */}
+      <Testmonial />
+      <Contact />
+      <ToastContainer style={{ zIndex: "1000000000000000000000" }} autoClose={2000} />
       <ScrollToTop smooth className='flex justify-center items-center ' />
     </div>
   )

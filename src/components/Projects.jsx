@@ -11,10 +11,10 @@ import github from './../assets/github.svg'
 
 function Projects() {
     return (
-        <div id='projects' className='p-[3rem] py-[3rem] sm:px-[1.25rem] sm:py-[-15px] '>
+        <div id='projects' className=' p-[3rem] py-[3rem] mt-10 sm:mt-0 sm:px-[1.25rem] sm:py-[-15px] '>
             <Slide left>
                 <div >
-                    <h1 className='w-[25rem] tracking-wider font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem] sm:mb-4 sm:w-[100%]'>Projects</h1>
+                    <h1 className='w-[25rem] tracking-wider font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem] sm:mb-4 sm:w-[100%]'>Latest Projects</h1>
                 </div>
             </Slide>
 
@@ -30,7 +30,7 @@ function Projects() {
                                 <button className='px-[1.6em] coursor-pointer  rounded-[4px] flex justify-start items-center gap-1  py-[.8em] border-2 lg:text-[.8rem] sm:text-[.8rem]'><img src={github} className='w-[30px]' />Code</button>
                             </div>
                         </div>
-                        <img src={square} className='top-1/2 opacity-20 dark:opacity-40 rotate-12 transform left-[60px] w-[200px]  -translate-y-1/2  absolute  ' />
+                        <img src={square} className='top-1/2 opacity-10 dark:opacity-40 rotate-12 transform left-[60px] w-[200px]  -translate-y-1/2  absolute  ' />
                     </div>
                 </Fade>
                 <Fade right>
@@ -38,7 +38,7 @@ function Projects() {
                 </Fade>
             </div>
 
-            <div className='flex gap-5 mt-20 tm:flex-col tm:items-center sm:flex-col'>
+            <div className='flex gap-5 mt-14 mb-14 tm:flex-col tm:items-center sm:flex-col'>
                 <Fade left>
                     <img src={dummy} className="w-[40%] tm:w-[100%] tm:mb-10 sm:w-[100%]" />
                 </Fade>
@@ -53,7 +53,7 @@ function Projects() {
                             </div>
                         </div>
 
-                        <img src={triangle} className='top-1/2 z-10 opacity-20 dark:opacity-40 -rotate-12 transform left-[20%] w-[200px]  -translate-y-1/2  absolute  ' />
+                        <img src={triangle} className='top-1/2 z-10 opacity-10 dark:opacity-40 -rotate-12 transform left-[20%] w-[200px]  -translate-y-1/2  absolute  ' />
                     </div>
                 </Fade>
             </div>
@@ -70,7 +70,7 @@ function Projects() {
                                 <button className='px-[1.6em] coursor-pointer  rounded-[4px] flex justify-start items-center gap-1  py-[.8em] border-2 lg:text-[.8rem] sm:text-[.8rem]'><img src={github} className='w-[30px]' />Code</button>
                             </div>
                         </div>
-                        <img src={circle} className='top-1/2 opacity-20 dark:opacity-40 rotate-12 transform left-[60px] w-[180px]  -translate-y-1/2  absolute  ' />
+                        <img src={circle} className='top-1/2 opacity-10 dark:opacity-40 rotate-12 transform left-[60px] w-[180px]  -translate-y-1/2  absolute  ' />
                     </div>
                 </Fade>
                 <Fade right>
@@ -94,7 +94,7 @@ function Projects() {
                             </div>
                         </div>
 
-                        <img src={star} className='top-1/2 z-10 opacity-20 dark:opacity-40 -rotate-12 transform left-[20%] w-[220px]  -translate-y-1/2  absolute  ' />
+                        <img src={star} className='top-1/2 z-10 opacity-10 dark:opacity-40 -rotate-12 transform left-[20%] w-[220px]  -translate-y-1/2  absolute  ' />
                     </div>
                 </Fade>
             </div>
