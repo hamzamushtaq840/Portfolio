@@ -14,10 +14,10 @@ function Services() {
     }, [inView]);
 
     return (
-        <div className="sm:flex sm:flex-col-reverse ">
+        <div id="about" className="sm:flex sm:flex-col-reverse  ">
             <div ref={ref} >
                 <Fade bottom>
-                    <div className='mb-20 px-[3em] mt-[4em] flex justify-between mx-[3.5em] flex-wrap  text-white rounded-xl bg-yellow-500 min-h-[10rem] lg:px-[2em]  md:gap-y-1 tm:px-[1em] sm:mt-[1em] sm:px-[0.5em]  sm:mx-[1.4em] sm:mb-2'>
+                    <div className='mb-20 px-[3em] mt-[5em] flex justify-between mx-[3.5em] flex-wrap  text-white rounded-xl bg-yellow-500 min-h-[10rem] lg:px-[2em]  md:gap-y-1 tm:px-[1em] sm:mt-[1em] sm:px-[0.5em]  sm:mx-[1.4em] sm:mb-2'>
                         <div className='flex flex-col gap-1 justify-center items-center text-[1.4rem] lg:text-[1.1rem] md:min-w-[50%] tm:text-[1rem] tm:min-w-[50%] sm:min-w-[50%] sm:text-[0.8rem]'>
                             <span className='font-[800] text-[2rem] lg:text-[1.8rem] tm:text-[1.6rem] sm:text-[1.4rem]'>  {startCountUp && <CountUp duration={1.5} end={36} />}+</span>
                             <h1 className='font-[600]'>Projects Completed</h1>

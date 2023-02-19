@@ -6,6 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Services from './components/Services';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Testmonial from './components/Testmonial';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Experience />
       <Projects />
+      {/* <Testmonial /> */}
       <ScrollToTop smooth className='flex justify-center items-center ' />
     </div>
   )

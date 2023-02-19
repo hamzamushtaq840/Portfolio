@@ -39,7 +39,7 @@ function AboutMe() {
                 <Bounce bottom>
                     <Tilt className="box" options={options} >
                         <div className='h-full mr-5 pt-6 justify-end  flex items-center sm:mr-0 sm:justify-center'>
-                            <img src={hamza} className="h-[80%] min-h-[250px] min-w-[250px] rounded-lg lg:h-[70%] md:h-[70%] tm:h-[360px] tm:mt-10 sm:h-[300px] sm:mt-5" />
+                            <img src={hamza} className="h-[80%] min-h-[250px] min-w-[250px] rounded-lg lg:mt-[30%] md:mt-[40%] tm:h-[360px] tm:mt-10 sm:h-[300px] sm:mt-5" />
                         </div>
                     </Tilt>
                 </Bounce>

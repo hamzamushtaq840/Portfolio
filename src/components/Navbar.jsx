@@ -12,6 +12,18 @@ function Navbar() {
     const [colorTheme, setColorTheme] = useDarkMode()
     const [isOpen, setOpen] = useState(false)
 
+    const scrollToComponent = (componentId) => {
+        const component = document.getElementById(componentId);
+        if (component) {
+            component.scrollIntoView({
+                behavior: 'smooth',
+                duration: 2000,
+                block: 'start',
+                inline: 'nearest'
+            });
+        }
+    }
+
     const boxStyle = {
         visible: {
             height: 'auto',
@@ -54,10 +66,10 @@ function Navbar() {
             <div className='flex  mt-[-2px] justify-between py-[1.6rem] px-[2.8rem] sm:px-[1.5rem] items-center'>
                 {colorTheme === "dark" ? <img src={logowhite} className="h-[2.2rem] w-[8.4rem] sm:h-[1.8rem] sm:w-[7rem]" /> : <img src={logoblack} className="h-[2.2rem] w-[8.4rem] sm:h-[1.8rem] sm:w-[7rem]" />}
                 <ul className='flex font-[400]  text-black dark:text-white dark:font-[200] text-[1em] gap-[5rem] tm:hidden sm:hidden md:gap-[3rem] lg:gap-4rem '>
-                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 ">About Me</a>
-                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 ">Experience</a>
-                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 ">Projects</a>
-                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 ">Testimonial</a>
+                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('about')}>About Me</a>
+                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('experience')}>Experience</a>
+                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('projects')}>Projects</a>
+                    {/* <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 ">Testimonial</a> */}
                     <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 ">Contact</a>
                 </ul>
                 <div className='flex  '>
