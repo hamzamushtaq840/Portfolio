@@ -32,33 +32,24 @@ function Testmonial() {
                         <div>
                             <div className='min-h-[400px] bg-yellow-500 mr-[10px]  rounded-[15px] flex flex-col items-center p-3 h-full '>
                                 <img src={quote} className='w-[80px]' />
-                                <p className=' text-white w-[80%] flex-1 flex justify-center items-center font-[400]  text-[1rem] leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem]'>"Neque, adipisci magnam labore sapiente in pariatur! Amet magni quisquam in doloribus aliquam laboriosam doloremque eligendi hic perspiciatis vel, modi quos exercitationem"</p>
+                                <p className=' text-white w-[80%] flex-1 flex justify-center items-center font-[400]  text-[1rem] leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem]'>I had the pleasure of working with him, he showed exceptional skills in ReactJS and web app design. He was highly responsive, communicative, and his attention to detail made the development process a breeze. I would highly recommend him to anyone in need of a talented web developer.</p>
                                 <div className='flex text-black w-[80%] items-center  flex-col pb-10 sm:pb-2'>
                                     <h1 className='text-[1.3rem] font-[600]  sm:text-[1rem]'>Issam Bukhari</h1>
-                                    <p className='text-[.8rem] font-[500]'>CEO CodeMetal</p>
+                                    <p className='text-[.8rem] font-[500]'>CEO HighTech</p>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div className='min-h-[400px] bg-yellow-500 mr-[10px]  rounded-[15px] flex flex-col items-center p-3 h-full '>
                                 <img src={quote} className='w-[80px]' />
-                                <p className=' text-white w-[80%] flex-1 flex justify-center items-center font-[400]  text-[1rem] leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem]'>"Neque, adipisci magnam labore sapiente in pariatur! Amet magni quisquam in doloribus aliquam laboriosam doloremque eligendi hic perspiciatis vel, modi quos exercitationem"</p>
+                                <p className=' text-white w-[80%] flex-1 flex justify-center items-center font-[400]  text-[1rem] leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem]'>His designing is very great. I would highly recommend him to anyone in need of a talented web developer.</p>
                                 <div className='flex text-black w-[80%] items-center  flex-col pb-10 sm:pb-2'>
-                                    <h1 className='text-[1.3rem] font-[600]  sm:text-[1rem]'>Issam Bukhari</h1>
-                                    <p className='text-[.8rem] font-[500]'>CEO CodeMetal</p>
+                                    <h1 className='text-[1.3rem] font-[600]  sm:text-[1rem]'>Huzaifa Abid</h1>
+                                    <p className='text-[.8rem] font-[500]'>Client</p>
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <div className='min-h-[400px] bg-yellow-500 mr-[10px]  rounded-[15px] flex flex-col items-center p-3 h-full '>
-                                <img src={quote} className='w-[80px]' />
-                                <p className=' text-white w-[80%] flex-1 flex justify-center items-center font-[400] text-[1rem] leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem]'>"Neque, adipisci magnam labore sapiente in pariatur! Amet magni quisquam in doloribus aliquam laboriosam doloremque eligendi hic perspiciatis vel, modi quos exercitationem"</p>
-                                <div className='flex text-black w-[80%] items-center  flex-col pb-10 sm:pb-2'>
-                                    <h1 className='text-[1.3rem] font-[600]  sm:text-[1rem]'>Issam Bukhari</h1>
-                                    <p className='text-[.8rem] font-[500]'>CEO CodeMetal</p>
-                                </div>
-                            </div>
-                        </div>
+
                     </Slider>
                 </Fade>
             </div >

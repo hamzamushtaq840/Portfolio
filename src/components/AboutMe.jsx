@@ -31,7 +31,7 @@ function AboutMe() {
                         />
                     </div>
                     <br />
-                    <p className='leading-loose font-[350] mt-[-10px] text-[1rem] w-[90%] lg:w-[70%] md:w-[65%] tm:w-full sm:w-full sm:text-[.9rem] sm:mt-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error non neque, in quis a, aperiam amet inventore deserunt ullam consequuntur culpa molestias corrupti nobis esse quidem optio est quae. Nobis.</p>
+                    <p className='leading-loose font-[350] mt-[-10px] text-[1rem] w-[90%] lg:w-[70%] md:w-[65%] tm:w-full sm:w-full sm:text-[.9rem] sm:mt-4'>I'm a MERN developer experienced in frontend and backend technologies. My tech stack includes MERN, Next.js, TypeScript, Nest.js, AWS, and DevOps. I build efficient web applications from designing interfaces to implementing server-side logic. Let's work together to bring your ideas to life!</p>
                 </div>
             </Fade>
 
@@ -45,10 +45,10 @@ function AboutMe() {
                 </Fade>
 
                 <div className='flex items-center gap-4 flex-col mt-[0] justify-center pt-[25%] sm:flex-row sm:pt-5'>
-                    <a href=""><img src={fb} className="cursor-pointer h-[30px] min-h-[30px] min-w-[30px]" /></a>
-                    <a href=""><img src={inst} className="cursor-pointer h-[36px]" /></a>
-                    <a href=""><img src={linkedin} className="cursor-pointer h-[35px]" /></a>
-                    <a href=""><img src={github} className="cursor-pointer h-[31px]" /></a>
+                    {/* <a href=""><img src={fb} className="cursor-pointer h-[30px] min-h-[30px] min-w-[30px]" /></a> */}
+                    {/* <a href=""><img src={inst} className="cursor-pointer h-[36px]" /></a> */}
+                    <a href="https://www.linkedin.com/in/hamza-mushtaq-8bb8ab246" target="_blank" ><img src={linkedin} className="cursor-pointer h-[35px]" /></a>
+                    <a href="https://github.com/hamzamushtaq840" target="_blank"><img src={github} className="cursor-pointer h-[31px]" /></a>
                 </div>
             </div>
 

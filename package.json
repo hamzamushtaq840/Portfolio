@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "emailjs": "^4.0.1",
     "formik": "^2.2.9",
     "framer-motion": "^9.0.4",
     "hamburger-react": "^2.5.0",

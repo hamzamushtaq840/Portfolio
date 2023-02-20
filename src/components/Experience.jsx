@@ -36,18 +36,18 @@ function Experience() {
                     <Bounce right>
                         <div className='flex flex-col sm:ml-[-20px] mt-1'>
                             <h1 className='text-[1.3rem] mb-2 sm:text-[1rem]'>MERN DEVELOPER</h1>
-                            <p className='w-[100%] font-[350] text-[1rem] leading-loose sm:text-[.9rem]  tm:text-[1rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt, rerum quasi omnis neque dolores repudiandae nobis tenetur. Dolorem, at.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laudantium et odio soluta commodi, autem ullam magnam voluptates quaerat sequi!</p>
+                            <p className='w-[100%] font-[350] text-[1rem] leading-loose sm:text-[.9rem]  tm:text-[1rem]'>I have designed and developed numerous web applications, ranging from small-scale projects to complex systems. I specialize in creating intuitive user interfaces, implementing secure payment gateways, and optimizing applications for optimal performance. I have delivered high-quality projects for my clients, always within agreed-upon timelines. I am committed to providing excellent customer service and bringing my professional experience to help you achieve your project goals.</p>
                         </div>
                     </Bounce>
                 </div>
 
             </div>
             <div className='flex flex-col  mt-5 items-center justify-center  '>
-                <div className='flex gap-10 w-[80%] tm:w-[100%] md:w-[100%] sm:w-[100%] '>
+                <div className='flex gap-10 ml-4 w-[80%] tm:w-[100%] md:w-[100%] sm:w-[100%] '>
                     <Fade left>
                         <div className='text-[1.3rem] mb-2 sm:text-[1rem] mt-[.1rem]'>
-                            <h1 >StellerStack</h1>
-                            <h3 className='text-[0.8rem] text-center my-1'>2022</h3>
+                            <h1>CodeMetal</h1>
+                            <h3 className='text-[0.8rem] text-center my-1'>2022-2023</h3>
                         </div>
                     </Fade>
                     <Roll bottom >
@@ -60,8 +60,8 @@ function Experience() {
                     </Roll>
                     <Bounce right>
                         <div className='flex flex-col sm:ml-[-20px] mt-1'>
-                            <h1 className='text-[1.3rem] mb-2 sm:text-[1rem]'>INTERNSHIP</h1>
-                            <p className='w-[100%] font-[350] text-[1rem] leading-loose sm:text-[.9rem]  tm:text-[1rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt, rerum quasi omnis neque dolores repudiandae nobis tenetur. Dolorem, at.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laudantium et odio soluta commodi, autem ullam magnam voluptates quaerat sequi!</p>
+                            <h1 className='text-[1.3rem] mb-2 sm:text-[1rem]'>FRONTEND DEVELOPER</h1>
+                            <p className='w-[100%] font-[350] text-[1rem] leading-loose sm:text-[.9rem]  tm:text-[1rem]'>I worked as a React Frontend Developer, contributing to the development of multiple web applications. I designed and developed user interfaces, integrated APIs, and worked closely with the backend team to ensure seamless data integration and overall application performance. My experience in agile development methodologies allowed me to effectively collaborate with cross-functional teams, ensuring timely project delivery. </p>
                         </div>
                     </Bounce>
                 </div>

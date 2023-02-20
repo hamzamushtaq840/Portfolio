@@ -28,7 +28,7 @@ function Navbar() {
         visible: {
             height: 'auto',
             opacity: 1,
-            transition: { delay: 0.3, when: "beforeChildren", staggerChildren: 0.2, },
+            transition: { delay: 0, duration: 0.2, when: "beforeChildren", staggerChildren: 0.2, },
 
         },
         hidden: {
@@ -39,7 +39,7 @@ function Navbar() {
         exit: {
             height: 0,
             opacity: 0,
-            transition: { duration: 0.3, delay: 0.2, when: "afterChildren", staggerChildren: 0.2, },
+            transition: { duration: 0.1, delay: 0, when: "afterChildren", staggerChildren: 0.2, },
         },
     };
 
@@ -57,7 +57,7 @@ function Navbar() {
         {
             x: 0,
             opacity: 0,
-            transition: { duration: 0.3 }
+            transition: { duration: 0.1 }
         }
     }
 
@@ -68,8 +68,8 @@ function Navbar() {
                 <ul className='flex font-[400]  text-black dark:text-white dark:font-[300] text-[1em] gap-[5rem] tm:hidden sm:hidden md:gap-[3rem] lg:gap-4rem '>
                     <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('about')}>About Me</a>
                     <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('experience')}>Experience</a>
-                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('projects')}>Projects</a>
-                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('testimonial')}>Testimonial</a>
+                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('projects')}>Projects    </a>
+                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('testimonial')}>Testimonials</a>
                 </ul>
                 <div className='flex  '>
                     <div className="hidden tm:h-[40px] tm:flex items-center sm:flex sm:h-[40px] ">
@@ -86,10 +86,11 @@ function Navbar() {
                         animate='visible'
                         initial='hidden'
                         exit='exit'
-                        className='text-black mx-[0.1rem] bg-white dark:text-white'
-                    >
-                        <motion.p variants={listStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nulla.</motion.p>
-                        <motion.p variants={listStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nulla.</motion.p>
+                        className=' flex flex-col items-center  bg-[#e4e1e17a] dark:bg-[#343541]'>
+                        <motion.p variants={listStyle} onClick={() => scrollToComponent('about')} className='w-full text-center p-[10px] hover:bg-[#a4a6bd13] dark:hover:bg-gray-700 cursor-pointer'>About Me</motion.p>
+                        <motion.p variants={listStyle} onClick={() => scrollToComponent('experience')} className='w-full text-center p-[10px] hover:bg-[#a4a6bd13] dark:hover:bg-gray-700 cursor-pointer'>Experience</motion.p>
+                        <motion.p variants={listStyle} onClick={() => scrollToComponent('projects')} className='w-full text-center p-[10px] hover:bg-[#a4a6bd13] dark:hover:bg-gray-700 cursor-pointer'>Projects</motion.p>
+                        <motion.p variants={listStyle} onClick={() => scrollToComponent('testimonial')} className='w-full text-center p-[10px] hover:bg-[#a4a6bd13] dark:hover:bg-gray-700 cursor-pointer'>Testimonials</motion.p>
                     </motion.div>
                 )}
             </AnimatePresence>

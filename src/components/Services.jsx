@@ -43,7 +43,7 @@ function Services() {
                     <h1 className='w-[25rem] tracking-wider font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem] sm:mb-4 sm:w-[100%]'>What Can I Do For Your Needs ?</h1>
                 </Fade>
                 <Fade right>
-                    <p className=' pr-[0rem] font-[350] w-[32rem] dark:text-white-200 text-[1rem] leading-loose sm:text-[.9rem] sm:w-[100%] tm:text-[1rem] tm:w-[100%] tm:mt-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae harum at, accusantium debitis pariatur quibusdam vero eveniet nulla ipsam repellat provident corrupti assumenda ducimus excepturi soluta maiores deleniti sapiente quidem doloremque eius dignissimos iure? Vero corrupti dolores eum dolore! Facere reprehenderit odio consequatur aut! Libero mollitia ad id hic placeat.</p>
+                    <p className=' pr-[0rem] font-[350] w-[32rem] dark:text-white-200 text-[1rem] leading-loose sm:text-[.9rem] sm:w-[100%] tm:text-[1rem] tm:w-[100%] tm:mt-5'>As a MERN developer, I offer a wide range of services to meet your web application needs. From developing user-friendly interfaces to implementing complex server-side logic, I can ensure your application is built with the latest and most efficient technologies. With expertise in MERN, Next.js, TypeScript, AWS, and DevOps, I can optimize your application's performance by minimizing load times, reducing latency, and enhancing overall user experience. Let me help you create a robust and optimized web application that caters to your specific needs.</p>
                 </Fade>
             </div>
 

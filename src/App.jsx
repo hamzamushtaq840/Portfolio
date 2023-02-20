@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <div className='bg-[#F6FBF4] text-black dark:bg-[#20262E] dark:text-white'>
+    <div className='bg-white text-black dark:bg-[#20262E] dark:text-white'>
       <Navbar />
       <AboutMe />
       <Services />
