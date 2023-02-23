@@ -24,9 +24,9 @@ function Testmonial() {
     return (
         <div id='testimonial'>
             <Fade left>
-                <h1 className='p-[3rem] sm:p-[1.25rem] w-[25rem] tracking-wider font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem] sm:mb-4 sm:w-[100%]'>Testimonials</h1>
+                <h1 className='p-[4rem] sm:p-[1.25rem] w-[25rem] tracking-wider font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem] sm:mb-4 sm:w-[100%]'>Testimonials</h1>
             </Fade>
-            <div className=' w-[65%] lg:w-[85%] md:w-[90%] tm:w-[90%] sm:w-[84%] mt-4 relative left-1/2 -translate-x-1/2 '>
+            <div className=' w-[65%] lg:w-[85%] md:w-[90%] tm:w-[88%] sm:w-[84%] mt-4 relative left-1/2 -translate-x-1/2 '>
                 <Fade right>
                     <Slider {...settings}>
                         <div>

@@ -6,10 +6,10 @@ import Bounce from 'react-reveal/Bounce';
 
 function Experience() {
     return (
-        <div id="experience" className='p-[4rem] mt-10 sm:mt-0 py-[3rem] sm:px-[1.25rem] sm:py-[-10px] '>
+        <div id="experience" className='p-[4rem] mt-10 tm:mt-4 sm:mt-0 py-[3rem] sm:px-[1.25rem] sm:py-[-10px] '>
             <Slide left>
                 <div >
-                    <h1 className='w-[25rem] mb-[4rem] tracking-wider font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem] sm:mb-4 sm:w-[100%]'>Experience</h1>
+                    <h1 className='w-[25rem] mb-[4rem] tm:mb-[2rem] tracking-wider font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem] sm:mb-4 sm:w-[100%]'>Experience</h1>
                 </div>
             </Slide>
 
@@ -25,7 +25,7 @@ function Experience() {
                         </div>
                     </Fade>
                     <Roll bottom >
-                        <div className='flex relative  mt-[5px] flex-col sm:ml-[-25px]  '>
+                        <div className='flex relative  mt-[5px] flex-col sm:ml-[-30px]  '>
                             <p className="p-[1px] border-dotted border-2 border-black dark:border-white rounded-full bg-transparent ">
                                 <div className='m-1 bg-[#D8F40C] p-[7px] rounded-full'></div>
                             </p>
@@ -34,7 +34,7 @@ function Experience() {
                         </div>
                     </Roll>
                     <Bounce right>
-                        <div className='flex flex-col sm:ml-[-20px] mt-1'>
+                        <div className='flex flex-col sm:ml-[-30px] mt-1'>
                             <h1 className='text-[1.3rem] mb-2 sm:text-[1rem]'>MERN DEVELOPER</h1>
                             <p className='w-[100%] font-[350] text-[1rem] leading-loose sm:text-[.9rem]  tm:text-[1rem]'>I have designed and developed numerous web applications, ranging from small-scale projects to complex systems. I specialize in creating intuitive user interfaces, implementing secure payment gateways, and optimizing applications for optimal performance. I have delivered high-quality projects for my clients, always within agreed-upon timelines. I am committed to providing excellent customer service and bringing my professional experience to help you achieve your project goals.</p>
                         </div>
@@ -43,7 +43,7 @@ function Experience() {
 
             </div>
             <div className='flex flex-col  mt-5 items-center justify-center  '>
-                <div className='flex gap-10 ml-4 w-[80%] tm:w-[100%] md:w-[100%] sm:w-[100%] '>
+                <div className='flex gap-10 ml-4 sm:ml-3 w-[80%] tm:w-[100%] md:w-[100%] sm:w-[100%] '>
                     <Fade left>
                         <div className='text-[1.3rem] mb-2 sm:text-[1rem] mt-[.1rem]'>
                             <h1>CodeMetal</h1>
@@ -51,7 +51,7 @@ function Experience() {
                         </div>
                     </Fade>
                     <Roll bottom >
-                        <div className='flex relative  mt-[5px] flex-col sm:ml-[-25px]  '>
+                        <div className='flex relative  mt-[5px] ml-[2px] flex-col sm:ml-[-28px]  '>
                             <p className="p-[1px] border-dotted border-2 border-black dark:border-white rounded-full bg-transparent ">
                                 <div className='m-1 bg-[#D8F40C] p-[7px] rounded-full'></div>
                             </p>
@@ -59,9 +59,9 @@ function Experience() {
                         </div>
                     </Roll>
                     <Bounce right>
-                        <div className='flex flex-col sm:ml-[-20px] mt-1'>
+                        <div className='flex flex-col sm:ml-[-30px] mt-1'>
                             <h1 className='text-[1.3rem] mb-2 sm:text-[1rem]'>FRONTEND DEVELOPER</h1>
-                            <p className='w-[100%] font-[350] text-[1rem] leading-loose sm:text-[.9rem]  tm:text-[1rem]'>I worked as a React Frontend Developer, contributing to the development of multiple web applications. I designed and developed user interfaces, integrated APIs, and worked closely with the backend team to ensure seamless data integration and overall application performance. My experience in agile development methodologies allowed me to effectively collaborate with cross-functional teams, ensuring timely project delivery. </p>
+                            <p className='w-[100%] font-[350] text-[1rem] leading-loose  sm:text-[.9rem] tm:text-[1rem]'>I worked as a React Frontend Developer, contributing to the development of multiple web applications. I designed and developed user interfaces, integrated APIs, and worked closely with the backend team to ensure seamless data integration and overall application performance. My experience in agile development methodologies allowed me to effectively collaborate with cross-functional teams, ensuring timely project delivery. </p>
                         </div>
                     </Bounce>
                 </div>
