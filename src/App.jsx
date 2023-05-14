@@ -14,7 +14,7 @@ function App() {
 
   return (
     <ParticlesView>
-      <div className=' select-none text-black bg-white dark:bg-[#20262E] dark:text-white  transition duration-500'>
+      <div className='font-poppins select-none text-black bg-white dark:bg-[#20262E] dark:text-white  transition duration-500'>
         <Navbar />
         <AboutMe />
         <Services />

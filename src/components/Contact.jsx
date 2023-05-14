@@ -50,17 +50,16 @@ function Contact() {
 
     return (
         <>
-            <div className='p-[4rem]  flex-col sm:px-[1.25rem] mt-10  flex  tm:py-0 sm:py-0 sm:mt-14  tm:flex-col gap-10 sm:flex-col'>
+            <div className='p-[4rem]  flex-col sm:px-[1.25rem] mt-10  flex  tm:py-0  sm:py-0 sm:mt-14  tm:flex-col gap-[80px] sm:gap-[20px] tm:gap-[20px] sm:flex-col'>
                 <Fade bottom>
-                    <div className='flex w-[36rem] tm:pt-4 sm:pt-0 tm:w-full sm:w-full'>
+                    <div className='flex w-[36rem] tm:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px]'>
                         <h1 className='  tracking-wider  font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem]  sm:w-[100%]'>Wanna hit up with <span className='text-yellow-500'>something ?</span> </h1>
                     </div>
                 </Fade>
 
                 <Fade bottom>
                     <div className='flex justify-center '>
-
-                        <form onSubmit={(e) => { e.preventDefault(); formik.handleSubmit() }} className='w-[90%] flex  flex-col gap-3 tm:w-full sm:w-full'>
+                        <form onSubmit={(e) => { e.preventDefault(); formik.handleSubmit() }} className='w-[90%] flex  flex-col gap-4 tm:w-full sm:w-full'>
                             <input id="name"
                                 type="text"
                                 onChange={formik.handleChange}

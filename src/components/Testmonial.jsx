@@ -32,18 +32,18 @@ function Testmonial() {
                         <div>
                             <div className='min-h-[400px] bg-yellow-500 mr-[10px]  rounded-[15px] flex flex-col items-center p-3 h-full '>
                                 <img alt='quote' src={quote} className='w-[80px]' />
-                                <p className=' text-white w-[80%] flex-1 flex justify-center items-center font-[400]  text-[1rem] leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem] text-center'>I've played around a bit. Great job!. I'm really impressed how well you have understood everything. Solid delivery. Very well done</p>
+                                <p className=' text-white w-[80%] flex-1 flex justify-center items-center font-[400]  text-custom-18 leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem] text-center'>I've played around a bit. Great job!. I'm really impressed how well you have understood everything. Solid delivery. Very well done</p>
                                 <div className='flex text-black w-[80%] items-center  flex-col pb-10 sm:pb-2'>
                                     <h1 className='text-[1.3rem] font-[600]  sm:text-[1rem]'>Fred Isaksson</h1>
                                     <p className='text-[.8rem] font-[500]'>Client</p>
-                                    <p className='text-[.6rem] text-[#616060] font-[500]'>Sweden</p>
+                                    <p className='text-[.7rem] text-[#616060] font-[500]'>Sweden</p>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div className='min-h-[400px] bg-yellow-500 mr-[10px]  rounded-[15px] flex flex-col items-center p-3 h-full '>
                                 <img alt='quote' src={quote} className='w-[80px]' />
-                                <p className=' text-white w-[80%] flex-1 text-center flex justify-center items-center font-[400]  text-[1rem] leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem]'>His designing is very great. I would highly recommend him to anyone in need of a talented web developer.</p>
+                                <p className=' text-white w-[80%] flex-1 text-center flex justify-center items-center font-[400]  text-custom-18 leading-loose sm:text-[.9rem] tm:w-[90%] tm:text-[1rem]'>His designing is very great. I would highly recommend him to anyone in need of a talented web developer.</p>
                                 <div className='flex text-black w-[80%] items-center  flex-col pb-10 sm:pb-2'>
                                     <h1 className='text-[1.3rem] font-[600]  sm:text-[1rem]'>Huzaifa Abid</h1>
                                     <p className='text-[.8rem] font-[500]'>Friend</p>
