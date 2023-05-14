@@ -1,12 +1,11 @@
+import { AnimatePresence, motion } from "framer-motion"
+import { Spin as Hamburger } from 'hamburger-react'
 import React, { useState } from 'react'
 import useDarkMode from '../hook/useDarkMode'
-import sun from './../assets/sun.svg'
 import logoblack from './../assets/dark.png'
 import logowhite from './../assets/light.png'
 import moon from './../assets/moon.svg'
-import { Spin as Hamburger } from 'hamburger-react'
-import { AnimatePresence, motion } from "framer-motion"
-
+import sun from './../assets/sun.svg'
 
 function Navbar() {
     const [colorTheme, setColorTheme] = useDarkMode()
@@ -63,19 +62,19 @@ function Navbar() {
 
     return (
         <>
-            <div className='flex  mt-[-2px] justify-between py-[2rem] px-[4rem] sm:px-[1.5rem] items-center'>
-                {colorTheme === "dark" ? <img src={logowhite} className="h-[2.2rem] w-[8.4rem] sm:h-[1.8rem] sm:w-[7rem]" /> : <img src={logoblack} className="h-[2.2rem] w-[8.4rem] sm:h-[1.8rem] sm:w-[7rem]" />}
+            <div className='flex mt-[-2px] justify-between py-[2rem] pl-[4rem] pr-[3.5rem] sm:px-[1.5rem] items-center'>
+                {colorTheme === "dark" ? <img src={logowhite} alt="logo" className="h-[2.2rem] w-[8.4rem] sm:h-[1.8rem] sm:w-[7rem]" /> : <img src={logoblack} className="h-[2.2rem] w-[8.4rem] sm:h-[1.8rem] sm:w-[7rem]" />}
                 <ul className='flex font-[400]  text-black dark:text-white dark:font-[300] text-[1em] gap-[5rem] tm:hidden sm:hidden md:gap-[3rem] lg:gap-4rem '>
-                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('about')}>About Me</a>
-                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('experience')}>Experience</a>
-                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('projects')}>Projects    </a>
-                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 " onClick={() => scrollToComponent('testimonial')}>Testimonials</a>
+                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 font-[400]" onClick={() => scrollToComponent('about')}>About Me</a>
+                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 font-[400]" onClick={() => scrollToComponent('experience')}>Experience</a>
+                    <a className="tracking-wide hover:after:bg-black dark:hover:after:bg-yellow-300 font-[400]" onClick={() => scrollToComponent('projects')}>Projects    </a>
+                    <a className="tracking-wider hover:after:bg-black dark:hover:after:bg-yellow-300 font-[400]" onClick={() => scrollToComponent('testimonial')}>Testimonials</a>
                 </ul>
                 <div className='flex  '>
                     <div className="hidden tm:h-[40px] tm:flex items-center sm:flex sm:h-[40px] ">
                         <Hamburger rounded size={30} duration={0.8} color={colorTheme === "light" ? "#FFFFFF" : "#000000"} toggled={isOpen} toggle={setOpen} />
                     </div>
-                    <img src={colorTheme === "light" ? sun : moon} className="cursor-pointer" onClick={() => setColorTheme(colorTheme)} />
+                    <img src={colorTheme === "light" ? sun : moon} alt="mode" className="cursor-pointer" onClick={() => setColorTheme(colorTheme)} />
                 </div>
             </div>
             <AnimatePresence className="">

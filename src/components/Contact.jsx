@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import Fade from 'react-reveal/Fade';
-import send from './../assets/send.png'
-import * as Yup from 'yup';
-import { useFormik } from 'formik';
-import { toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
+import { useFormik } from 'formik';
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+import { toast } from 'react-toastify';
+import * as Yup from 'yup';
+import send from './../assets/send.png';
 
 function Contact() {
     const formik = useFormik({
@@ -51,13 +51,13 @@ function Contact() {
     return (
         <>
             <div className='p-[4rem]  flex-col sm:px-[1.25rem] mt-10  flex  tm:py-0 sm:py-0 sm:mt-14  tm:flex-col gap-10 sm:flex-col'>
-                <Fade left>
+                <Fade bottom>
                     <div className='flex w-[36rem] tm:pt-4 sm:pt-0 tm:w-full sm:w-full'>
                         <h1 className='  tracking-wider  font-[600] text-[2rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1.8rem]  sm:w-[100%]'>Wanna hit up with <span className='text-yellow-500'>something ?</span> </h1>
                     </div>
                 </Fade>
 
-                <Fade right>
+                <Fade bottom>
                     <div className='flex justify-center '>
 
                         <form onSubmit={(e) => { e.preventDefault(); formik.handleSubmit() }} className='w-[90%] flex  flex-col gap-3 tm:w-full sm:w-full'>
@@ -92,7 +92,7 @@ function Contact() {
                             ) : null}
 
                             <div className='flex justify-end mt-5 mb-8'>
-                                <button type='submit' className='px-[1.6em] coursor-pointer  rounded-[4px] flex justify-start items-center gap-1  py-[.8em] border-2 lg:text-[.8rem] sm:text-[.8rem]'>SEND <img src={send} className='w-[20px]' /></button>
+                                <button type='submit' className='px-[1.6em] coursor-pointer  rounded-[4px] flex justify-start items-center gap-1  py-[.8em] border-2 lg:text-[.8rem] sm:text-[.8rem]'>SEND <img src={send} alt='send' className='w-[20px]' /></button>
                             </div>
                         </form>
                     </div>

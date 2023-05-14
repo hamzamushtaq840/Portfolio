@@ -16,7 +16,7 @@ module.exports = {
       // => @media (min-width: 640px and max-width: 767px) { ... }
       'md': { 'min': '860px', 'max': '950px' },
       // => @media (min-width: 768px and max-width: 1023px) { ... }
-      'lg': { 'min': '950px', 'max': '1093px' },
+      'lg': { 'min': '950px', 'max': '1250px' },
       // => @media (min-width: 1024px and max-width: 1279px) { ... }
     },
   },
