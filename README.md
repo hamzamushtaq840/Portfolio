@@ -1,6 +1,9 @@
-# My Portfolio
+# React Portfolio
 
 Welcome to my portfolio project! This is a showcase of my work and skills as a React developer.
+
+![alt text]([http://url/to/img.png](https://firebasestorage.googleapis.com/v0/b/deploy-fleadisc.appspot.com/o/courseImages%2FPortfolio.png_xwevq31hd4l?alt=media&token=481ddd67-2e3c-4ce9-80d5-dbfce9e51568))
+
 
 ## Table of Contents
 
