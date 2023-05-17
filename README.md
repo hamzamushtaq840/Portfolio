@@ -1,13 +1,9 @@
-# React Portfolio
-
-Welcome to my portfolio project! This is a showcase of my work and skills as a React developer.
+# React Portfolio with Tailwind and TSparticles
 
 
 <p align="center">
   <img src="https://firebasestorage.googleapis.com/v0/b/deploy-fleadisc.appspot.com/o/courseImages%2FPortfolio.png_xwevq31hd4l?alt=media&token=481ddd67-2e3c-4ce9-80d5-dbfce9e51568" height="100%" title="hover text">
 </p>
-![portfolio image](https://firebasestorage.googleapis.com/v0/b/deploy-fleadisc.appspot.com/o/courseImages%2FPortfolio.png_xwevq31hd4l?alt=media&token=481ddd67-2e3c-4ce9-80d5-dbfce9e51568)
-
 
 ## Table of Contents
 
@@ -37,7 +33,6 @@ The following technologies were used to build this project:
 - Interactive user interface with smooth navigation.
 - Sections to display information about me, experience, projects, testimonial, and contact.
 - Links to my social media profiles and other online platforms.
-- Integration with external APIs, such as GitHub to fetch project repositories.
 
 ## Installation
 
@@ -46,6 +41,7 @@ To run this project locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/hamzamushtaq840/portfolio.git`
 2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
+4. Run it by: `npm run dev`
 
 ## Usage
 
